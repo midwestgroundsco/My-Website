@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midwest Grounds Co. - Lawn Care, Snow Removal & Holiday Lighting</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #000;
+            color: #fff;
+        }
+        header img {
+            width: 150px;
+            height: auto;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+        }
+        .hero {
+            background-color: #444;
+            color: #fff;
+            padding: 50px;
+            text-align: center;
+            background-image: url('holiday_lights.jpg'); /* Add background for holiday lighting */
+            background-size: cover;
+            background-position: center;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .service {
+            width: 45%;
+            margin: 10px 0;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        .service.snow-removal {
+            background-image: url('snow_background.jpg'); /* Snow theme for snow removal */
+        }
+        .service.lawn-care {
+            background-image: url('grass_background.jpg'); /* Grass theme for lawn care */
+        }
+        .service.gutter-cleaning {
+            background-image: url('leaves_background.jpg'); /* Leaves for gutter cleaning */
+        }
+        footer {
+            text-align: center;
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: auto;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .contact-form button {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="your_logo.png" alt="Midwest Grounds Co. Logo">
+    <h1>Midwest Grounds Co.</h1>
+    <p>Lawn Care, Snow Removal & Holiday Lighting</p>
+</header>
+
+<div class="hero">
+    <h2>Holiday Lighting & Snow Removal</h2>
+    <p>We provide professional snow removal and holiday lighting installation services for your home. Contact us today for a quote!</p>
+</div>
+
+<section class="services">
+    <div class="service snow-removal">
+        <h2>Snow Removal</h2>
+        <p>We offer reliable snow removal services, including driveway and walkway clearing, salting, and de-icing. Keep your home safe this winter.</p>
+    </div>
+
+    <div class="service holiday-lighting">
+        <h2>Holiday Lighting</h2>
+        <p>Let us bring the holiday spirit to your home! We install professional holiday lighting to make your home shine this season.</p>
+    </div>
+
+    <div class="service lawn-care">
+        <h2>Lawn Care</h2>
+        <p>Our lawn care services include lawn mowing, edging, and clearing driveways and sidewalks. We keep your yard looking pristine all year round.</p>
+    </div>
+
+    <div class="service gutter-cleaning">
+        <h2>Gutter Cleaning</h2>
+        <p>Keep your gutters free from debris with our professional gutter cleaning services. We make sure water flows properly to prevent damage to your home.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Request a Quote</h2>
+    <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="phone" placeholder="Your Phone Number" required>
+        <textarea name="message" placeholder="How can we help you?" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+    <p>Midwest Grounds Co. - Serving Ankeny, Iowa</p>
+    <p>Phone: 515-442-4044 | Email: midwestgroundsco@gmail.com</p>
+    <p>Follow us on <a href="https://facebook.com/MidwestGroundsCo" target="_blank" style="color: #fff;">Facebook</a></p>
+    <p>Business Hours: 7am - 7pm</p>
+</footer>
+
+</body>
+</html>
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #333333;
+    margin: 10px 0;
+}
+
+p {
+    color: #666666;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #444;
+    color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+    background-image: url('holiday_lights.jpg'); /* Add your background image for holiday lights */
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h2 {
+    font-size: 2rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+}
+
+.service {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    min-width: 45%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.service:hover {
+    transform: scale(1.02);
+}
+
+.service h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.service.snow-removal {
+    background-image: url('snow_background.jpg'); /* Add your snow theme image */
+    background-size: cover;
+    color: #fff;
+}
+
+.service.holiday-lighting {
+    background-image: url('holiday_lights_background.jpg'); /* Add your holiday lights image */
+    background-size: cover;
+    color: #fff;
+}
+
+.service.lawn-care {
+    background-image: url('grass_background.jpg'); /* Add your grass theme image */
+    background-size: cover;
+    color: #fff;
+}
+
+.service.gutter-cleaning {
+    background-image: url('leaves_background.jpg'); /* Add your leaves theme image */
+    background-size: cover;
+    color: #fff;
+}
+
+/* Contact Form */
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
